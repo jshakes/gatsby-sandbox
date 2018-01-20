@@ -1,4 +1,10 @@
 module.exports = {
+  siteMetadata: {
+    title: 'Gatsby Sandbox',
+    author: 'James Shakespeare',
+    description: 'Messing around with Gatsby.',
+    siteUrl: 'https://js-gatsby-test.surge.sh',
+  },
   plugins: [
     {
       resolve: 'gatsby-plugin-typography',
